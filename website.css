@@ -1,0 +1,65 @@
+body {
+  background-image: url("bkgd.jpg");
+}
+#mainNav {
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color: #fff;
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+user agent stylesheet
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+h1 {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 54px;
+  letter-spacing: 0.6px;
+  word-spacing: 1.2px;
+  color: #BE56CB;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-shadow: 2px 3px 6px rgba(255,255,255,0.67);
+  text-align: center;
+}
+h2 {
+  font-family: "arial black", Gadget, sans-serif;
+  font-size: 24px;
+  letter-spacing:0.6px;
+  word-spacing: 1.2px;
+  color: purple;
+}
